@@ -1,3 +1,7 @@
+// Implementation of func wordCount.
+// Counts the number of times words are used in a given string.
+// https://tour.golang.org/moretypes/23
+
 package main
 
 import (
