@@ -11,8 +11,7 @@ func Pic(dx, dy int) [][]uint8 {
 	for i := range picture {
 		temp := make([]uint8, dx)
 		for j := range temp {
-			// Formula used is the sum of consecutive 
-integers from i to j, inclusive
+			// Formula used is the sum of consecutive integers from i to j, inclusive
 			temp[j] = uint8((i+j)*(i-j-1)/2)
 		}
 		picture[i] = temp
